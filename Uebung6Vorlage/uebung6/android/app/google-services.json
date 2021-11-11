@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "237324412297",
+    "project_id": "uebung6-e6357",
+    "storage_bucket": "uebung6-e6357.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:237324412297:android:7459e60bb34f636810ad58",
+        "android_client_info": {
+          "package_name": "com.example.uebung6"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "237324412297-uldpniv9o3fe4qjick6isrci0uh577rq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBH1PLYa3FTctrSAt5jQYa_ZnicgFKPDR8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "237324412297-uldpniv9o3fe4qjick6isrci0uh577rq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
