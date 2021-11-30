@@ -30,6 +30,28 @@
   <link rel="manifest" href="manifest.json">
 </head>
 <body>
+<script src="https://www.gstatic.com/firebasejs/9.5.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.5.0/firebase-firestore-compat.js"></script>
+
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        // import { initializeApp } from "https://www.gstatic.com/firebasejs/9.5.0/firebase-app.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+          apiKey: "AIzaSyCJVEsunbXn42vGa_s3xxdG4ypeYeMejwc",
+          authDomain: "uebung5-bd27a.firebaseapp.com",
+          projectId: "uebung5-bd27a",
+          storageBucket: "uebung5-bd27a.appspot.com",
+          messagingSenderId: "1019819454387",
+          appId: "1:1019819454387:web:1bedbf09b8184af63165c6"
+        };
+      
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+      </script>
   <!-- This script installs service_worker.js to provide PWA functionality to
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
@@ -97,5 +119,6 @@
       loadMainDartJs();
     }
   </script>
+
 </body>
 </html>
