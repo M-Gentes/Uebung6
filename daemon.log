@@ -1,0 +1,31 @@
+!! PLEASE REVIEW THIS LOG FOR SENSITIVE INFORMATION BEFORE SHARING !!
+
+Dart Code extension: 3.29.0
+Flutter extension: 3.29.0 (not activated)
+
+App: Visual Studio Code
+Version: 1.61.0
+Platform: win
+
+HTTP_PROXY: undefined
+NO_PROXY: undefined
+
+Logging Categories:
+    FlutterDaemon
+
+Wed Dec 15 2021 [12:20:58 GMT+0100 (Mitteleuropäische Normalzeit)] Log file started
+[12:20:58] [FlutterDaemon] [Info] Spawning C:\Users\leuna\Documents\flutter\bin\flutter.bat with args ["daemon"]
+[12:20:58] [FlutterDaemon] [Info] ..  in C:\Users\leuna\Documents\flutter
+[12:20:58] [FlutterDaemon] [Info] ..  with {"toolEnv":{"FLUTTER_HOST":"VSCode","PUB_ENVIRONMENT":"vscode.dart-code"}}
+[12:20:58] [FlutterDaemon] [Info]     PID: 236
+[12:20:58] [FlutterDaemon] [Info] ==> [{"id":"1","method":"emulator.getEmulators"}]
+[12:21:35] [FlutterDaemon] [Info] <== [{"event":"daemon.connected","params":{"version":"0.6.1","pid":36044}}]
+[12:21:35] [FlutterDaemon] [Info] ==> [{"id":"2","method":"device.enable"}]
+[12:21:35] [FlutterDaemon] [Info] <== [{"event":"daemon.logMessage","params":{"level":"status","message":"╔════════════════════════════════════════════════════════════════════════════╗\n║ A new version of Flutter is available!                                     ║\n║                                                                            ║\n║ To update to the latest version, run \"flutter upgrade\".                    ║\n╚════════════════════════════════════════════════════════════════════════════╝\n"}}]
+[12:21:35] [FlutterDaemon] [Info] <== [{"event":"daemon.logMessage","params":{"level":"status","message":"Starting device daemon..."}}]
+[12:21:35] [FlutterDaemon] [Info] <== [{"id":"2"}]
+[12:21:35] [FlutterDaemon] [Info] <== [{"id":"1","result":[{"id":"Pixel_2_API_30_Versuch3","name":"Pixel 2 API 30 Versuch3","category":"mobile","platformType":"android"},{"id":"Pixel_2_API_30_next","name":"Pixel 2 API 30 next","category":"mobile","platformType":"android"},{"id":"flutter_emulator","name":"flutter emulator","category":"mobile","platformType":"android"}]}]
+[12:21:39] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"chrome","name":"Chrome","platform":"web-javascript","emulator":false,"category":"web","platformType":"web","ephemeral":false,"emulatorId":null}}]
+[12:21:39] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"edge","name":"Edge","platform":"web-javascript","emulator":false,"category":"web","platformType":"web","ephemeral":false,"emulatorId":null}}]
+[12:21:39] [FlutterDaemon] [Info] ==> [{"id":"3","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\leuna\\Documents\\GitHub\\Uebung6\\StudiRepUebung6\\uebung6vorlage"}}]
+[12:21:39] [FlutterDaemon] [Info] <== [{"id":"3","result":{"platforms":["ios","android","web"]}}]

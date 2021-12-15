@@ -32,6 +32,7 @@ class ListUpdater {
 //TODO this class is used to store database entries for use within the app. you will need variables for the ID provided by Firestore, the title and whether the item is checked
 @immutable
 class ShopItem {
+  
 }
 
 /* ---------------------------------- List ---------------------------------- */
