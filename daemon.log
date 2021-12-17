@@ -13,24 +13,26 @@ NO_PROXY: undefined
 Logging Categories:
     FlutterDaemon
 
-Wed Dec 15 2021 [12:46:00 GMT+0100 (Mitteleuropäische Normalzeit)] Log file started
-[12:46:00] [FlutterDaemon] [Info] Spawning C:\Users\leuna\Documents\flutter\bin\flutter.bat with args ["daemon"]
-[12:46:00] [FlutterDaemon] [Info] ..  in C:\Users\leuna\Documents\flutter
-[12:46:00] [FlutterDaemon] [Info] ..  with {"toolEnv":{"FLUTTER_HOST":"VSCode","PUB_ENVIRONMENT":"vscode.dart-code"}}
-[12:46:00] [FlutterDaemon] [Info]     PID: 12052
-[12:46:00] [FlutterDaemon] [Info] ==> [{"id":"1","method":"emulator.getEmulators"}]
-[12:46:01] [FlutterDaemon] [Info] <== [{"event":"daemon.connected","params":{"version":"0.6.1","pid":26564}}]
-[12:46:01] [FlutterDaemon] [Info] ==> [{"id":"2","method":"device.enable"}]
-[12:46:01] [FlutterDaemon] [Info] <== [{"event":"daemon.logMessage","params":{"level":"status","message":"Starting device daemon..."}}]
-[12:46:01] [FlutterDaemon] [Info] <== [{"id":"2"}]
-[12:46:01] [FlutterDaemon] [Info] <== [{"id":"1","result":[{"id":"Pixel_2_API_30_Versuch3","name":"Pixel 2 API 30 Versuch3","category":"mobile","platformType":"android"},{"id":"Pixel_2_API_30_next","name":"Pixel 2 API 30 next","category":"mobile","platformType":"android"},{"id":"flutter_emulator","name":"flutter emulator","category":"mobile","platformType":"android"}]}]
-[12:46:05] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"chrome","name":"Chrome","platform":"web-javascript","emulator":false,"category":"web","platformType":"web","ephemeral":false,"emulatorId":null}}]
-[12:46:05] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"edge","name":"Edge","platform":"web-javascript","emulator":false,"category":"web","platformType":"web","ephemeral":false,"emulatorId":null}}]
-[12:46:05] [FlutterDaemon] [Info] ==> [{"id":"3","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\leuna\\Documents\\GitHub\\Uebung6\\StudiRepUebung6\\uebung6vorlage"}}]
-[12:46:05] [FlutterDaemon] [Info] <== [{"id":"3","result":{"platforms":["ios","android","web"]}}]
-[12:51:59] [General] [Error] Running "pub deps --json" returned exit code 65:
+Fri Dec 17 2021 [12:38:33 GMT+0100 (Mitteleuropäische Normalzeit)] Log file started
+[12:38:33] [FlutterDaemon] [Info] Spawning C:\Users\leuna\Documents\flutter\bin\flutter.bat with args ["daemon"]
+[12:38:33] [FlutterDaemon] [Info] ..  in C:\Users\leuna\Documents\flutter
+[12:38:33] [FlutterDaemon] [Info] ..  with {"toolEnv":{"FLUTTER_HOST":"VSCode","PUB_ENVIRONMENT":"vscode.dart-code"}}
+[12:38:33] [FlutterDaemon] [Info]     PID: 10812
+[12:38:33] [FlutterDaemon] [Info] ==> [{"id":"1","method":"emulator.getEmulators"}]
+[12:38:37] [FlutterDaemon] [Info] <== [{"event":"daemon.connected","params":{"version":"0.6.1","pid":19160}}]
+[12:38:37] [FlutterDaemon] [Info] ==> [{"id":"2","method":"device.enable"}]
+[12:38:37] [FlutterDaemon] [Info] <== [{"event":"daemon.logMessage","params":{"level":"status","message":"╔════════════════════════════════════════════════════════════════════════════╗\n║ A new version of Flutter is available!                                     ║\n║                                                                            ║\n║ To update to the latest version, run \"flutter upgrade\".                    ║\n╚════════════════════════════════════════════════════════════════════════════╝\n"}}]
+[12:38:37] [FlutterDaemon] [Info] <== [{"event":"daemon.logMessage","params":{"level":"status","message":"Starting device daemon..."}}]
+[12:38:37] [FlutterDaemon] [Info] <== [{"id":"2"}]
+[12:38:38] [FlutterDaemon] [Info] <== [{"id":"1","result":[{"id":"flutter_emulator","name":"flutter emulator","category":"mobile","platformType":"android"}]}]
+[12:38:38] [General] [Error] Running "pub deps --json" returned exit code 65:
 
+Waiting for another flutter command to release the startup lock...
 No .dart_tool/package_config.json file found, please run "pub get".
 
 Starting with Dart 2.7, the package_config.json file configures resolution of package import URIs; run "pub get" to generate it.
 pub finished with exit code 65
+[12:38:42] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"chrome","name":"Chrome","platform":"web-javascript","emulator":false,"category":"web","platformType":"web","ephemeral":false,"emulatorId":null}}]
+[12:38:42] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"edge","name":"Edge","platform":"web-javascript","emulator":false,"category":"web","platformType":"web","ephemeral":false,"emulatorId":null}}]
+[12:38:42] [FlutterDaemon] [Info] ==> [{"id":"3","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\leuna\\Documents\\GitHub\\Uebung6\\StudiRepUebung6\\uebung6vorlage"}}]
+[12:38:42] [FlutterDaemon] [Info] <== [{"id":"3","result":{"platforms":["ios","android","web"]}}]
