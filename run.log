@@ -1,0 +1,62 @@
+[13:09:59]: Spawning C:\Users\leuna\Documents\flutter\bin\flutter.bat with args ["run","--machine","--start-paused","-d","emulator-5554","--dart-define=flutter.inspector.structuredErrors=true","--web-allow-expose-url","--devtools-server-address","http://127.0.0.1:9101/","--target","lib\\main.dart"]
+[13:09:59]: ..  in C:\Users\leuna\Documents\GitHub\Uebung6\StudiRepUebung6\uebung6vorlage
+[13:09:59]: ..  with {"toolEnv":{"FLUTTER_HOST":"VSCode","PUB_ENVIRONMENT":"vscode.dart-code"}}
+[13:09:59]: PID: 24736
+[13:10:02]: <== [{"event":"daemon.connected","params":{"version":"0.6.1","pid":29724}}]
+[13:10:02]: <== [{"event":"app.start","params":{"appId":"47321b2a-8ee5-432e-9b9d-bad22a46b676","deviceId":"emulator-5554","directory":"C:\\Users\\leuna\\Documents\\GitHub\\Uebung6\\StudiRepUebung6\\uebung6vorlage","supportsRestart":true,"launchMode":"run"}}]
+[13:10:02]: <== Launching lib\main.dart on sdk gphone x86 in debug mode...
+[13:10:03]: <== [{"event":"app.progress","params":{"appId":"47321b2a-8ee5-432e-9b9d-bad22a46b676","id":"0","progressId":null,"message":"Running Gradle task 'assembleDebug'...","finished":false}}]
+[13:10:10]: Warning: Mapping new ns http://schemas.android.com/repository/android/common/02 to old ns http://schemas.android.com/repository/android/common/01
+[13:10:10]: Warning: Mapping new ns http://schemas.android.com/repository/android/generic/02 to old ns http://schemas.android.com/repository/android/generic/01
+[13:10:10]: Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/02 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
+[13:10:10]: Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/02 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
+Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/02 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
+[13:10:35]: <== [{"event":"app.progress","params":{"appId":"47321b2a-8ee5-432e-9b9d-bad22a46b676","id":"0","progressId":null,"finished":true}}]
+[13:10:36]: <== √  Built build\app\outputs\flutter-apk\app-debug.apk.
+[13:10:37]: <== [{"event":"app.progress","params":{"appId":"47321b2a-8ee5-432e-9b9d-bad22a46b676","id":"1","progressId":null,"message":"Installing build\\app\\outputs\\flutter-apk\\app.apk...","finished":false}}]
+[13:10:38]: <== [{"event":"app.progress","params":{"appId":"47321b2a-8ee5-432e-9b9d-bad22a46b676","id":"1","progressId":null,"finished":true}}]
+[13:10:40]: <== W/FlutterActivityAndFragmentDelegate( 9463): A splash screen was provided to Flutter, but this is deprecated. See flutter.dev/go/android-splash-migration for migration steps.
+[13:10:42]: <== [{"event":"app.debugPort","params":{"appId":"47321b2a-8ee5-432e-9b9d-bad22a46b676","port":63959,"wsUri":"ws://127.0.0.1:63959/LlNMV8O_wMw=/ws","baseUri":"file:///data/user/0/com.example.uebung6vorlage/code_cache/uebung6vorlageMDXXQR/uebung6vorlage/"}}]
+[13:10:42]: <== [{"event":"app.progress","params":{"appId":"47321b2a-8ee5-432e-9b9d-bad22a46b676","id":"2","progressId":null,"message":"Syncing files to device sdk gphone x86...","finished":false}}]
+[13:10:42]: <== [{"event":"app.progress","params":{"appId":"47321b2a-8ee5-432e-9b9d-bad22a46b676","id":"2","progressId":null,"finished":true}}]
+[13:10:42]: <== [{"event":"app.started","params":{"appId":"47321b2a-8ee5-432e-9b9d-bad22a46b676"}}]
+[13:10:43]: ==> [{"id":"1","method":"app.callServiceExtension","params":{"appId":"47321b2a-8ee5-432e-9b9d-bad22a46b676","methodName":"ext.flutter.inspector.structuredErrors","params":{"enabled":true}}}]
+[13:10:43]: <== [{"id":"1","result":{"enabled":"true","type":"_extensionType","method":"ext.flutter.inspector.structuredErrors"}}]
+[13:10:44]: <== I/flutter ( 9463): async start
+[13:10:45]: <== W/DynamiteModule( 9463): Local module descriptor class for providerinstaller not found.
+[13:10:45]: <== I/DynamiteModule( 9463): Considering local module providerinstaller:0 and remote module providerinstaller:0
+[13:10:45]: <== W/ProviderInstaller( 9463): Failed to load providerinstaller module: No acceptable module found. Local version is 0 and remote version is 0.
+[13:10:45]: <== I/TetheringManager( 9463): registerTetheringEventCallback:com.example.uebung6vorlage
+[13:10:45]: <== I/.uebung6vorlag( 9463): The ClassLoaderContext is a special shared library.
+[13:10:45]: <== I/.uebung6vorlag( 9463): The ClassLoaderContext is a special shared library.
+[13:10:45]: <== I/.uebung6vorlag( 9463): The ClassLoaderContext is a special shared library.
+[13:10:45]: <== V/NativeCrypto( 9463): Registering com/google/android/gms/org/conscrypt/NativeCrypto's 294 native methods...
+[13:10:45]: <== W/.uebung6vorlag( 9463): Accessing hidden method Ljava/security/spec/ECParameterSpec;->getCurveName()Ljava/lang/String; (greylist, reflection, allowed)
+[13:10:45]: <== I/ProviderInstaller( 9463): Installed default security provider GmsCore_OpenSSL
+[13:10:45]: <== W/.uebung6vorlag( 9463): Accessing hidden field Ljava/net/Socket;->impl:Ljava/net/SocketImpl; (greylist, reflection, allowed)
+[13:10:45]: <== W/.uebung6vorlag( 9463): Accessing hidden method Ldalvik/system/CloseGuard;->get()Ldalvik/system/CloseGuard; (greylist,core-platform-api, linking, allowed)
+[13:10:45]: <== W/.uebung6vorlag( 9463): Accessing hidden method Ldalvik/system/CloseGuard;->open(Ljava/lang/String;)V (greylist,core-platform-api, linking, allowed)
+[13:10:45]: <== W/.uebung6vorlag( 9463): Accessing hidden method Ljava/security/spec/ECParameterSpec;->setCurveName(Ljava/lang/String;)V (greylist, reflection, allowed)
+[13:10:45]: <== W/.uebung6vorlag( 9463): Accessing hidden method Ldalvik/system/BlockGuard;->getThreadPolicy()Ldalvik/system/BlockGuard$Policy; (greylist,core-platform-api, linking, allowed)
+[13:10:45]: <== W/.uebung6vorlag( 9463): Accessing hidden method Ldalvik/system/BlockGuard$Policy;->onNetwork()V (greylist, linking, allowed)
+[13:10:46]: <== I/flutter ( 9463): {check: false, title: var}
+[13:10:46]: <== I/flutter ( 9463): YQNx0xUuo5tYtT6qByqO
+[13:10:46]: <== I/flutter ( 9463): async done
+[13:12:00]: ==> [{"id":"2","method":"app.restart","params":{"appId":"47321b2a-8ee5-432e-9b9d-bad22a46b676","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
+[13:12:00]: <== [{"event":"app.progress","params":{"appId":"47321b2a-8ee5-432e-9b9d-bad22a46b676","id":"3","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
+[13:12:00]: <== [{"event":"app.progress","params":{"appId":"47321b2a-8ee5-432e-9b9d-bad22a46b676","id":"4","progressId":null,"message":"Syncing files to device sdk gphone x86...","finished":false}}]
+[13:12:00]: <== [{"event":"app.progress","params":{"appId":"47321b2a-8ee5-432e-9b9d-bad22a46b676","id":"4","progressId":null,"finished":true}}]
+[13:12:01]: <== [{"event":"app.progress","params":{"appId":"47321b2a-8ee5-432e-9b9d-bad22a46b676","id":"3","progressId":"hot.reload","finished":true}}]
+[13:12:01]: <== Reloaded 1 of 617 libraries in 1.203ms.
+[13:12:01]: <== [{"id":"2","result":{"code":0,"message":"Reloaded 1 of 617 libraries"}}]
+[13:13:09]: ==> [{"id":"3","method":"app.restart","params":{"appId":"47321b2a-8ee5-432e-9b9d-bad22a46b676","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
+[13:13:09]: <== [{"event":"app.progress","params":{"appId":"47321b2a-8ee5-432e-9b9d-bad22a46b676","id":"5","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
+[13:13:09]: <== [{"event":"app.progress","params":{"appId":"47321b2a-8ee5-432e-9b9d-bad22a46b676","id":"6","progressId":null,"message":"Syncing files to device sdk gphone x86...","finished":false}}]
+[13:13:09]: <== [{"event":"app.progress","params":{"appId":"47321b2a-8ee5-432e-9b9d-bad22a46b676","id":"6","progressId":null,"finished":true}}]
+[13:13:10]: <== [{"event":"app.progress","params":{"appId":"47321b2a-8ee5-432e-9b9d-bad22a46b676","id":"5","progressId":"hot.reload","finished":true}}]
+[13:13:10]: <== Reloaded 1 of 617 libraries in 796ms.
+[13:13:10]: <== [{"id":"3","result":{"code":0,"message":"Reloaded 1 of 617 libraries"}}]
+[13:13:15]: ==> [{"id":"4","method":"app.stop","params":{"appId":"47321b2a-8ee5-432e-9b9d-bad22a46b676"}}]
+[13:13:15]: <== Application finished.
+[13:13:15]: <== [{"id":"4","result":true}]
+[13:13:16]: <== [{"event":"app.stop","params":{"appId":"47321b2a-8ee5-432e-9b9d-bad22a46b676"}}]

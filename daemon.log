@@ -13,26 +13,74 @@ NO_PROXY: undefined
 Logging Categories:
     FlutterDaemon
 
-Fri Dec 17 2021 [12:38:33 GMT+0100 (Mitteleuropäische Normalzeit)] Log file started
-[12:38:33] [FlutterDaemon] [Info] Spawning C:\Users\leuna\Documents\flutter\bin\flutter.bat with args ["daemon"]
-[12:38:33] [FlutterDaemon] [Info] ..  in C:\Users\leuna\Documents\flutter
-[12:38:33] [FlutterDaemon] [Info] ..  with {"toolEnv":{"FLUTTER_HOST":"VSCode","PUB_ENVIRONMENT":"vscode.dart-code"}}
-[12:38:33] [FlutterDaemon] [Info]     PID: 10812
-[12:38:33] [FlutterDaemon] [Info] ==> [{"id":"1","method":"emulator.getEmulators"}]
-[12:38:37] [FlutterDaemon] [Info] <== [{"event":"daemon.connected","params":{"version":"0.6.1","pid":19160}}]
-[12:38:37] [FlutterDaemon] [Info] ==> [{"id":"2","method":"device.enable"}]
-[12:38:37] [FlutterDaemon] [Info] <== [{"event":"daemon.logMessage","params":{"level":"status","message":"╔════════════════════════════════════════════════════════════════════════════╗\n║ A new version of Flutter is available!                                     ║\n║                                                                            ║\n║ To update to the latest version, run \"flutter upgrade\".                    ║\n╚════════════════════════════════════════════════════════════════════════════╝\n"}}]
-[12:38:37] [FlutterDaemon] [Info] <== [{"event":"daemon.logMessage","params":{"level":"status","message":"Starting device daemon..."}}]
-[12:38:37] [FlutterDaemon] [Info] <== [{"id":"2"}]
-[12:38:38] [FlutterDaemon] [Info] <== [{"id":"1","result":[{"id":"flutter_emulator","name":"flutter emulator","category":"mobile","platformType":"android"}]}]
-[12:38:38] [General] [Error] Running "pub deps --json" returned exit code 65:
-
-Waiting for another flutter command to release the startup lock...
-No .dart_tool/package_config.json file found, please run "pub get".
-
-Starting with Dart 2.7, the package_config.json file configures resolution of package import URIs; run "pub get" to generate it.
-pub finished with exit code 65
-[12:38:42] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"chrome","name":"Chrome","platform":"web-javascript","emulator":false,"category":"web","platformType":"web","ephemeral":false,"emulatorId":null}}]
-[12:38:42] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"edge","name":"Edge","platform":"web-javascript","emulator":false,"category":"web","platformType":"web","ephemeral":false,"emulatorId":null}}]
-[12:38:42] [FlutterDaemon] [Info] ==> [{"id":"3","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\leuna\\Documents\\GitHub\\Uebung6\\StudiRepUebung6\\uebung6vorlage"}}]
-[12:38:42] [FlutterDaemon] [Info] <== [{"id":"3","result":{"platforms":["ios","android","web"]}}]
+Wed Dec 22 2021 [10:40:02 GMT+0100 (Mitteleuropäische Normalzeit)] Log file started
+[10:40:02] [FlutterDaemon] [Info] Spawning C:\Users\leuna\Documents\flutter\bin\flutter.bat with args ["daemon"]
+[10:40:02] [FlutterDaemon] [Info] ..  in C:\Users\leuna\Documents\flutter
+[10:40:02] [FlutterDaemon] [Info] ..  with {"toolEnv":{"FLUTTER_HOST":"VSCode","PUB_ENVIRONMENT":"vscode.dart-code"}}
+[10:40:02] [FlutterDaemon] [Info]     PID: 7620
+[10:40:02] [FlutterDaemon] [Info] ==> [{"id":"1","method":"emulator.getEmulators"}]
+[10:40:05] [FlutterDaemon] [Info] <== [{"event":"daemon.connected","params":{"version":"0.6.1","pid":26652}}]
+[10:40:05] [FlutterDaemon] [Info] ==> [{"id":"2","method":"device.enable"}]
+[10:40:05] [FlutterDaemon] [Info] <== [{"event":"daemon.logMessage","params":{"level":"status","message":"Starting device daemon..."}}]
+[10:40:05] [FlutterDaemon] [Info] <== [{"id":"2"}]
+[10:40:05] [FlutterDaemon] [Info] <== [{"id":"1","result":[{"id":"flutter_emulator","name":"flutter emulator","category":"mobile","platformType":"android"}]}]
+[10:40:09] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"chrome","name":"Chrome","platform":"web-javascript","emulator":false,"category":"web","platformType":"web","ephemeral":false,"emulatorId":null}}]
+[10:40:09] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"edge","name":"Edge","platform":"web-javascript","emulator":false,"category":"web","platformType":"web","ephemeral":false,"emulatorId":null}}]
+[10:40:09] [FlutterDaemon] [Info] ==> [{"id":"3","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\leuna\\Documents\\GitHub\\Uebung6\\StudiRepUebung6\\uebung6vorlage"}}]
+[10:40:09] [FlutterDaemon] [Info] <== [{"id":"3","result":{"platforms":["ios","android","web"]}}]
+[12:00:20] [FlutterDaemon] [Info] ==> [{"id":"4","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\leuna\\Documents\\GitHub\\Uebung6\\StudiRepUebung6\\uebung6vorlage"}}]
+[12:00:20] [FlutterDaemon] [Info] <== [{"id":"4","result":{"platforms":["ios","android","web"]}}]
+[12:00:20] [FlutterDaemon] [Info] ==> [{"id":"5","method":"emulator.getEmulators"}]
+[12:00:20] [FlutterDaemon] [Info] <== [{"id":"5","result":[{"id":"flutter_emulator","name":"flutter emulator","category":"mobile","platformType":"android"}]}]
+[12:00:22] [FlutterDaemon] [Info] ==> [{"id":"6","method":"emulator.launch","params":{"emulatorId":"flutter_emulator","coldBoot":false}}]
+[12:00:25] [FlutterDaemon] [Info] <== [{"id":"6"}]
+[12:00:34] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"emulator-5554","name":"sdk gphone x86","platform":"android-x86","emulator":true,"category":"mobile","platformType":"android","ephemeral":true,"emulatorId":"flutter_emulator"}}]
+[12:00:34] [FlutterDaemon] [Info] ==> [{"id":"7","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\leuna\\Documents\\GitHub\\Uebung6\\StudiRepUebung6\\uebung6vorlage"}}]
+[12:00:34] [FlutterDaemon] [Info] <== [{"id":"7","result":{"platforms":["ios","android","web"]}}]
+[12:20:31] [FlutterDaemon] [Info] ==> [{"id":"8","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\leuna\\Documents\\GitHub\\Uebung6\\StudiRepUebung6\\uebung6vorlage"}}]
+[12:20:31] [FlutterDaemon] [Info] <== [{"id":"8","result":{"platforms":["ios","android","web"]}}]
+[12:20:31] [FlutterDaemon] [Info] ==> [{"id":"9","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\leuna\\Documents\\GitHub\\Uebung6\\StudiRepUebung6\\uebung6vorlage"}}]
+[12:20:31] [FlutterDaemon] [Info] <== [{"id":"9","result":{"platforms":["ios","android","web"]}}]
+[12:20:32] [General] [Warn] Did not find session 3d79bc66-6fad-4bf6-bfa2-b006045020c8 to handle dart.progressStart. There were 0 sessions:
+[12:20:32] [General] [Warn] Event will be queued and processed when the session start event fires
+[12:20:53] [FlutterRun] [Error] [Dart ] Warning: Mapping new ns http://schemas.android.com/repository/android/common/02 to old ns http://schemas.android.com/repository/android/common/01
+[12:20:53] [FlutterRun] [Error] [Dart ] Warning: Mapping new ns http://schemas.android.com/repository/android/generic/02 to old ns http://schemas.android.com/repository/android/generic/01
+Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/02 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
+Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/02 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
+Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/02 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
+[12:45:55] [FlutterRun] [Error] [Dart ] lib/model/list.dart:18:26: Error: The getter 'id' isn't defined for the class 'Future<DocumentReference<Map<String, dynamic>>>'.
+[12:45:55] [FlutterRun] [Error] [Dart ]  - 'Future' is from 'dart:async'.
+ - 'DocumentReference' is from 'package:cloud_firestore/cloud_firestore.dart' ('../../../../flutter/.pub-cache/hosted/pub.dartlang.org/cloud_firestore-3.1.5/lib/cloud_firestore.dart').
+ - 'Map' is from 'dart:core'.
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'id'.
+    return ShopItem(item.id,title); //? ID returned somehow
+                         ^^
+[12:47:22] [FlutterRun] [Error] [Dart ] lib/model/list.dart:18:26: Error: The getter 'id' isn't defined for the class 'Future<DocumentReference<Map<String, dynamic>>>'.
+[12:47:22] [FlutterRun] [Error] [Dart ]  - 'Future' is from 'dart:async'.
+ - 'DocumentReference' is from 'package:cloud_firestore/cloud_firestore.dart' ('../../../../flutter/.pub-cache/hosted/pub.dartlang.org/cloud_firestore-3.1.5/lib/cloud_firestore.dart').
+ - 'Map' is from 'dart:core'.
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'id'.
+    return ShopItem(item.id,title); //? ID returned somehow
+                         ^^
+[12:53:44] [FlutterDaemon] [Info] ==> [{"id":"10","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\leuna\\Documents\\GitHub\\Uebung6\\StudiRepUebung6\\uebung6vorlage"}}]
+[12:53:44] [FlutterDaemon] [Info] <== [{"id":"10","result":{"platforms":["ios","android","web"]}}]
+[12:53:44] [FlutterDaemon] [Info] ==> [{"id":"11","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\leuna\\Documents\\GitHub\\Uebung6\\StudiRepUebung6\\uebung6vorlage"}}]
+[12:53:44] [FlutterDaemon] [Info] <== [{"id":"11","result":{"platforms":["ios","android","web"]}}]
+[12:53:45] [General] [Warn] Did not find session 17ba7b38-ff82-4eae-8531-8955ea1c9a5b to handle dart.progressStart. There were 0 sessions:
+[12:53:45] [General] [Warn] Event will be queued and processed when the session start event fires
+[12:53:56] [FlutterRun] [Error] [Dart ] Warning: Mapping new ns http://schemas.android.com/repository/android/common/02 to old ns http://schemas.android.com/repository/android/common/01
+[12:53:56] [FlutterRun] [Error] [Dart ] Warning: Mapping new ns http://schemas.android.com/repository/android/generic/02 to old ns http://schemas.android.com/repository/android/generic/01
+Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/02 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
+Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/02 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
+Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/02 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
+[13:09:58] [FlutterDaemon] [Info] ==> [{"id":"12","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\leuna\\Documents\\GitHub\\Uebung6\\StudiRepUebung6\\uebung6vorlage"}}]
+[13:09:58] [FlutterDaemon] [Info] <== [{"id":"12","result":{"platforms":["ios","android","web"]}}]
+[13:09:58] [FlutterDaemon] [Info] ==> [{"id":"13","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\leuna\\Documents\\GitHub\\Uebung6\\StudiRepUebung6\\uebung6vorlage"}}]
+[13:09:58] [FlutterDaemon] [Info] <== [{"id":"13","result":{"platforms":["ios","android","web"]}}]
+[13:09:59] [General] [Warn] Did not find session 7f133f30-034a-4961-849e-d0b6c7726843 to handle dart.progressStart. There were 0 sessions:
+[13:09:59] [General] [Warn] Event will be queued and processed when the session start event fires
+[13:10:10] [FlutterRun] [Error] [Dart ] Warning: Mapping new ns http://schemas.android.com/repository/android/common/02 to old ns http://schemas.android.com/repository/android/common/01
+[13:10:10] [FlutterRun] [Error] [Dart ] Warning: Mapping new ns http://schemas.android.com/repository/android/generic/02 to old ns http://schemas.android.com/repository/android/generic/01
+[13:10:10] [FlutterRun] [Error] [Dart ] Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/02 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
+[13:10:10] [FlutterRun] [Error] [Dart ] Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/02 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
+Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/02 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01

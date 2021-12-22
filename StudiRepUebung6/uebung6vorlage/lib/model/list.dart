@@ -12,18 +12,39 @@ class ListUpdater {
   // TODO connect to the Firebase collection and create a new entry with the provided String as the title and false as the default value for whether or not the item is checked then create a new instance of ShopItem and return it
   // Firebase will provide an ID for the entry as part of the answer message
   static Future<ShopItem> create(String title) async {
+    DocumentReference item = await firestore.collection("shopItems").add({"title": title, "check": false});
+    //dummy
+    print(item.id);
+    return ShopItem(item.id,title); //? ID returned somehow
   }
 
   // TODO retrieve all entries from your Firebase collection and return them in form of a list
   static Future<List<ShopItem>> readAll() async {
+    var list = await firestore.collection("shopItems").get();
+    //TODO Liste erstellen mit Einträgen
+    list.docs.forEach((element) {
+      print(element.data().toString());
+      print(element.id);
+      //TODO Liste befüllen
+    });
+    //dummy
+    return List.empty(); //TODO Liste return
   }
 
   // TODO set the value of your checked variable in your collection to the one provided
   static Future<ShopItem> check(String id, bool check) async {
+    //dummy
+    return ShopItem(id,"");
   }
 
   // TODO delete the entry for a given id
   static Future<bool> delete(String id) async {
+    try {
+      firestore.collection("shopItems").doc(id).delete();
+    } catch (e) {
+      return false;
+    }
+    return true;
   }
 }
 
@@ -32,6 +53,12 @@ class ListUpdater {
 //TODO this class is used to store database entries for use within the app. you will need variables for the ID provided by Firestore, the title and whether the item is checked
 @immutable
 class ShopItem {
+  String id; //Firestore?
+  bool check=false; //
+  var title; //
+
+  //Konstruktor
+  ShopItem(this.id, this.title);
   
 }
 
@@ -45,8 +72,9 @@ class ShopList extends ChangeNotifier {
 
 
   void create(String title) async {
-    var item = await ListUpdater.create(title);
+    ShopItem item = await ListUpdater.create(title);
     //TODO add the created item to the _items map
+    _items.putIfAbsent(item.id, () => item); //?
     notifyListeners();
   }
 
@@ -59,8 +87,10 @@ class ShopList extends ChangeNotifier {
 
   void delete(String id) async {
     var list = await ListUpdater.delete(id);
+    print("Hello");
     if (list) {
       //TODO remove the item from the _items map
+      _items.remove(id);
       notifyListeners();
     }
   }
