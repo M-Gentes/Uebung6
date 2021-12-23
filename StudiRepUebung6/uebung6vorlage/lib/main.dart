@@ -7,8 +7,6 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import './model/list.dart';
 
-
-
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
@@ -37,7 +35,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Flutter CRUD Uebung 6',
       theme: ThemeData(
         brightness: Brightness.light,
         /* light theme settings */
@@ -61,7 +59,8 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Flutter Demo Home Page'),
+        title: const Text('BuyBye - Einkaufsliste'),
+        leading: const Icon(Icons.shopping_cart_sharp),
       ),
       body: Column(children: <Widget>[
         const Expanded(child: SList()),
@@ -91,13 +90,9 @@ class SList extends StatefulWidget {
 class _SListState extends State<SList> {
   @override
   void initState() {
-    print("async start");
-
     Future(() {
       var prov = Provider.of<ShopList>(context, listen: false);
-      prov.init().then((value) {
-        print("async done");
-      });
+      prov.init().then((value) {});
     });
 
     super.initState();
@@ -112,13 +107,15 @@ class _SListState extends State<SList> {
         var item = list.items[index];
         return ListTile(
           leading: IconButton(
-            icon: Icon(item.check ? Icons.done : Icons.train),
+            color:
+                (item.check ? Colors.lightGreen[700] : Colors.deepOrange[700]),
+            icon: Icon(item.check ? Icons.check_box : Icons.assignment_late),
             onPressed: () {
               list.check(item.id);
             },
           ),
           trailing: IconButton(
-            icon: const Icon(Icons.remove_circle_outline),
+            icon: const Icon(Icons.delete),
             onPressed: () {
               list.delete(item.id);
             },
